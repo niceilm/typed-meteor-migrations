@@ -1,8 +1,7 @@
-# Type definitions for meteor-migrations 0.9.8
-- Project https://github.com/percolatestudio/meteor-migrations
-- Definitions by flynn <https://github.com/niceilm/>
+# Typed meteor-migrations
 
-# Example
-```
-import { Migrations } from 'meteor/percolate:migrations';
-```
+The type definition for [meteor-migrations](https://github.com/percolatestudio/meteor-migrations).
+
+## License
+
+MIT

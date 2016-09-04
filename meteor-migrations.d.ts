@@ -1,7 +1,5 @@
 /**
- * @author https://github.com/niceilm/
  * @link https://github.com/percolatestudio/meteor-migrations
- * @description Type definitions for meteor-migrations 0.9.8
  * @example
  * import { Migrations } from 'meteor/percolate:migrations';
  * Migrations.migrateTo('3,rerun');

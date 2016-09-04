@@ -1,6 +1,6 @@
 {
-  "name": "migrations-typings",
-  "main": "migrations.d.ts",
+  "name": "meteor-migrations",
+  "main": "meteor-migrations.d.ts",
   "global": true,
   "homepage": "https://github.com/percolatestudio/meteor-migrations",
   "version": "0.9.8",
