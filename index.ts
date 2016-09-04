@@ -7,18 +7,18 @@
 declare module 'meteor/percolate:migrations' {
   interface MigrationConfig {
     // Log job run details to console
-    log: boolean;
+    log?: boolean;
     // Use a custom logger function (defaults to Meteor's logging package)
-    logger: any;
+    logger?: any;
     // Enable/disable logging "Not migrating, already at version {number}"
-    logIfLatest: boolean;
+    logIfLatest?: boolean;
     // migrations collection name to use in the database
-    collectionName: string;
+    collectionName?: string;
   }
   interface MigrationAction {
     version: number;
-    name: string;
     up: Function;
+    name?: string;
     down?: Function;
   }
   interface MigrationsStatic {
